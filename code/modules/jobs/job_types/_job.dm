@@ -579,7 +579,7 @@
 			var/gender = player_client.prefs.read_preference(/datum/preference/choiced/gender)
 			real_name = species.random_name(gender, TRUE)
 	dna.update_dna_identity()
-
+	updateappearance()
 
 /mob/living/silicon/ai/apply_prefs_job(client/player_client, datum/job/job)
 	if(GLOB.current_anonymous_theme)
