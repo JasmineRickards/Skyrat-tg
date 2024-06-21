@@ -64,15 +64,15 @@
 #define MAXIMUM_MARKINGS_PER_LIMB 3
 
 #define BODY_SIZE_NORMAL 1.00
-#define BODY_SIZE_MAX 1.5
+#define BODY_SIZE_MAX 2.5
 #define BODY_SIZE_MIN 0.8
 
 //In inches
 #define PENIS_MIN_GIRTH PENIS_MIN_LENGTH
 #define PENIS_MAX_GIRTH 15
-#define PENIS_DEFAULT_GIRTH 5 // a lil big but not by much
+#define PENIS_DEFAULT_GIRTH 3 // a lil big but not by much
 #define PENIS_MIN_LENGTH 1
-#define PENIS_MAX_LENGTH 20
+#define PENIS_MAX_LENGTH 30
 #define PENIS_DEFAULT_LENGTH 6 //still a lil long but not insane
 
 #define TESTICLES_MIN_SIZE 0
