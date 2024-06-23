@@ -83,6 +83,14 @@
 	make_reagent = /datum/reagent/consumable/bbqsauce
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/mayonnaise
+	name = "Mayonnaise"
+	id = "mayosauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagent = /obj/item/reagent_containers/condiment/mayonnaise
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/ketchup
 	name = "Ketchup"
 	id = "ketchup"
@@ -113,6 +121,14 @@
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
 	make_reagent = /datum/reagent/consumable/flour
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/kflour
+	name = "Korta Flour"
+	id = "kflour_sack"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 1)
+	make_reagent = /datum/reagent/consumable/korta_flour
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/sugar
