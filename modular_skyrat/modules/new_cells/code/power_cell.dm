@@ -41,6 +41,7 @@
 	maxcharge = STANDARD_CELL_CHARGE * 2.5
 	charge_light_type = "old"
 	/// how much is recharged every process
+	var/recharge_amount = STANDARD_CELL_CHARGE * 0.2
 
 /obj/item/stock_parts/cell/self_charge/Initialize(mapload, override_maxcharge)
 	. = ..()
