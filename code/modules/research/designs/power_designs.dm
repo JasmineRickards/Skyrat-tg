@@ -151,7 +151,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/cell/self_charge
-	name = "expanded charging cell"
+	name = "charging cell"
 	desc = "A special cell that will recharge itself over time."
 	id = "self_chargec"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -169,8 +169,8 @@
 	id = "self_chargec_expanded"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
 	materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 8, /datum/material/gold = SMALL_MATERIAL_AMOUNT * 1.2, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 1.6, /datum/material/diamond = SMALL_MATERIAL_AMOUNT * 1.6, /datum/material/titanium =SMALL_MATERIAL_AMOUNT * 3, /datum/material/bluespace =SMALL_MATERIAL_AMOUNT)
-	construction_time = 10 SECONDS
-	build_path = /obj/item/stock_parts/cell/bluespace/empty
+	construction_time = 20 SECONDS
+	build_path = /obj/item/stock_parts/cell/self_charge/expanded
 	category = list(
 		RND_CATEGORY_STOCK_PARTS + RND_SUBCATEGORY_STOCK_PARTS_4
 	)
