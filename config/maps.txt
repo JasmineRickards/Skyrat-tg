@@ -22,34 +22,34 @@ map birdshot
 endmap
 
 map deltastation
-	minplayers 50
+	minplayers 1
 	votable
 endmap
 
 map icebox
-	minplayers 25
+	minplayers 1
 	votable
 endmap
 
 map metastation
-	minplayers 25
+	minplayers 1
 	#voteweight 0.5
 	votable
 endmap
 
 map northstar
-	minplayers 50
+	minplayers 10
 	votable
 endmap
 
 map tramstation
-	minplayers 35
+	minplayers 10
 	votable
 endmap
 
 map wawastation
 	votable
-	minplayers 40
+	minplayers 10
 endmap
 
 # Debug-only maps.
@@ -71,7 +71,7 @@ map voidraptor
 endmap
 
 map blueshift
-	minplayers 70
+	minplayers 20
 	votable
 endmap
 

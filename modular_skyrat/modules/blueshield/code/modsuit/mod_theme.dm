@@ -64,10 +64,10 @@
 	)
 
 /datum/armor/mod_theme_blueshield
-	melee = 40
-	bullet = 30
-	laser = 30
-	energy = 40
+	melee = 60
+	bullet = 50
+	laser = 50
+	energy = 50
 	bomb = 50
 	bio = 100
 	fire = 100

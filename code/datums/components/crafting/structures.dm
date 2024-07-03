@@ -74,3 +74,14 @@
 	)
 	category = CAT_STRUCTURE
 	crafting_flags = CRAFT_CHECK_DENSITY | CRAFT_MUST_BE_LEARNED
+
+/datum/crafting_recipe/firecabinet
+	name = "Atmospheric Fan"
+	result = /obj/structure/fans/tiny
+	time = 8 SECONDS
+	reqs = list(
+		/obj/item/stack/sheet/plasteel = 5,
+		/obj/item/stack/sheet/glass = 5,
+		/obj/item/stack/cable_coil = 10,
+	)
+	category = CAT_STRUCTURE
