@@ -54,7 +54,7 @@
 /obj/item/stock_parts/power_store/cell/self_charge/process(seconds_per_tick)
 	give(recharge_amount)
 
-/obj/item/stock_parts/cell/self_charge/expanded
+/obj/item/stock_parts/power_store/cell/self_charge/expanded
 	name = "expanded charging cell"
 	desc = "A special cell that will recharge itself over time."
 	icon = 'modular_skyrat/modules/new_cells/icons/power.dmi'
