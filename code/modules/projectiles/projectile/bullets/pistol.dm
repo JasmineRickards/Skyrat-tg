@@ -2,7 +2,7 @@
 
 /obj/projectile/bullet/c9mm
 	name = "9mm bullet"
-  	damage = 35
+	damage = 35
 
 
 /obj/projectile/bullet/c9mm/ap
