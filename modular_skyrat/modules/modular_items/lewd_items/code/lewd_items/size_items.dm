@@ -21,7 +21,7 @@
 /obj/item/clothing/neck/size_collar/attack_self(mob/user, modifiers)
 	. = ..()
 	if(!warning_given)
-		if(tgui_alert(user, "This item is strictly intended as an ERP item for use in dorm rooms. Failure to respect this will result in administrative action being taken. Do you wish to continue using this item?", "A word of warning.", list("Yes", "No")) != "Yes")
+		if(tgui_alert(user, "This item is strictly intended as an ERP item for use in fittin scenes. Failure to respect this will result in administrative action being taken. Do you wish to continue using this item?", "A word of warning.", list("Yes", "No")) != "Yes")
 			return FALSE
 
 		warning_given = TRUE

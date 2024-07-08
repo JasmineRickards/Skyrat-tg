@@ -38,7 +38,7 @@
 
 /datum/ai_behavior/targeted_mob_ability/brimbeam
 	/// Don't shoot if too far away
-	var/max_target_distance = 9
+	var/max_target_distance = 7
 
 /datum/ai_behavior/targeted_mob_ability/brimbeam/perform(seconds_per_tick, datum/ai_controller/controller, ability_key, target_key)
 	var/mob/living/target = controller.blackboard[target_key]

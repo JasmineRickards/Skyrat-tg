@@ -201,10 +201,10 @@
 		mod.wearer?.update_clothing(part.slot_flags)
 
 /datum/armor/mod_theme
-	melee = 10
-	bullet = 5
-	laser = 5
-	energy = 5
+	melee = 20
+	bullet = 25
+	laser = 25
+	energy = 25
 	bio = 100
 	fire = 25
 	acid = 25
@@ -267,10 +267,10 @@
 	)
 
 /datum/armor/mod_theme_engineering
-	melee = 10
-	bullet = 5
-	laser = 20
-	energy = 10
+	melee = 20
+	bullet = 25
+	laser = 30
+	energy = 20
 	bomb = 10
 	bio = 100
 	fire = 100
@@ -335,9 +335,9 @@
 	)
 
 /datum/armor/mod_theme_atmospheric
-	melee = 10
-	bullet = 5
-	laser = 10
+	melee = 20
+	bullet = 25
+	laser = 20
 	energy = 15
 	bomb = 10
 	bio = 100
@@ -407,10 +407,10 @@
 	)
 
 /datum/armor/mod_theme_advanced
-	melee = 15
-	bullet = 5
-	laser = 20
-	energy = 15
+	melee = 35
+	bullet = 35
+	laser = 30
+	energy = 35
 	bomb = 50
 	bio = 100
 	fire = 100
@@ -517,10 +517,10 @@
 	allowed_suit_storage = GLOB.mining_suit_allowed
 
 /datum/armor/mod_theme_mining
-	melee = 20
-	bullet = 5
-	laser = 5
-	energy = 5
+	melee = 30
+	bullet = 25
+	laser = 25
+	energy = 25
 	bomb = 30
 	bio = 100
 	fire = 100
@@ -585,10 +585,10 @@
 	)
 
 /datum/armor/mod_theme_loader
-	melee = 15
-	bullet = 5
-	laser = 5
-	energy = 5
+	melee = 25
+	bullet = 25
+	laser = 25
+	energy = 25
 	bomb = 10
 	bio = 10
 	fire = 25
@@ -694,10 +694,10 @@
 	)
 
 /datum/armor/mod_theme_medical
-	melee = 5
-	bullet = 5
-	laser = 5
-	energy = 5
+	melee = 25
+	bullet = 25
+	laser = 25
+	energy = 25
 	bomb = 10
 	bio = 100
 	fire = 60
@@ -774,10 +774,10 @@
 	)
 
 /datum/armor/mod_theme_rescue
-	melee = 10
-	bullet = 10
-	laser = 5
-	energy = 5
+	melee = 20
+	bullet = 20
+	laser = 25
+	energy = 25
 	bomb = 10
 	bio = 100
 	fire = 100
@@ -848,7 +848,7 @@
 /datum/armor/mod_theme_research
 	melee = 20
 	bullet = 15
-	laser = 5
+	laser = 25
 	energy = 5
 	bomb = 100
 	bio = 100
@@ -913,10 +913,10 @@
 	)
 
 /datum/armor/mod_theme_security
-	melee = 15
-	bullet = 15
-	laser = 15
-	energy = 15
+	melee = 50
+	bullet = 50
+	laser = 50
+	energy = 50
 	bomb = 25
 	bio = 100
 	fire = 75
@@ -980,10 +980,10 @@
 	)
 
 /datum/armor/mod_theme_safeguard
-	melee = 15
-	bullet = 15
-	laser = 15
-	energy = 15
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 40
 	bio = 100
 	fire = 100
@@ -1053,10 +1053,10 @@
 	)
 
 /datum/armor/mod_theme_magnate
-	melee = 20
-	bullet = 15
-	laser = 15
-	energy = 15
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 50
 	bio = 100
 	fire = 100
@@ -1229,10 +1229,10 @@
 	)
 
 /datum/armor/mod_theme_syndicate
-	melee = 15
-	bullet = 20
-	laser = 15
-	energy = 15
+	melee = 50
+	bullet = 50
+	laser = 50
+	energy = 50
 	bomb = 35
 	bio = 100
 	fire = 50
@@ -1302,10 +1302,10 @@
 	)
 
 /datum/armor/mod_theme_elite
-	melee = 35
-	bullet = 30
-	laser = 35
-	energy = 35
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 55
 	bio = 100
 	fire = 100
@@ -1461,10 +1461,10 @@
 	)
 
 /datum/armor/mod_theme_interdyne
-	melee = 30
-	bullet = 30
-	laser = 30
-	energy = 30
+	melee = 45
+	bullet = 45
+	laser = 45
+	energy = 45
 	bomb = 20
 	bio = 100
 	fire = 100
@@ -1531,8 +1531,8 @@
 	)
 
 /datum/armor/mod_theme_enchanted
-	melee = 40
-	bullet = 40
+	melee = 45
+	bullet = 45
 	laser = 50
 	energy = 50
 	bomb = 35
@@ -1600,7 +1600,7 @@
 	)
 
 /datum/armor/mod_theme_ninja
-	melee = 40
+	melee = 30
 	bullet = 30
 	laser = 20
 	energy = 30
@@ -1837,11 +1837,11 @@
 	)
 
 /datum/armor/mod_theme_responsory
-	melee = 50
-	bullet = 40
-	laser = 50
-	energy = 50
-	bomb = 50
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
+	bomb = 60
 	bio = 100
 	fire = 100
 	acid = 90
@@ -1921,7 +1921,7 @@
 /datum/armor/mod_theme_apocryphal
 	melee = 80
 	bullet = 80
-	laser = 50
+	laser = 80
 	energy = 60
 	bomb = 100
 	bio = 100

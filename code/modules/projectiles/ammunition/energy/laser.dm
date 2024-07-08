@@ -1,21 +1,21 @@
 /obj/item/ammo_casing/energy/laser
 	projectile_type = /obj/projectile/beam/laser
-	e_cost = LASER_SHOTS(12, STANDARD_CELL_CHARGE)
+	e_cost = LASER_SHOTS(20, STANDARD_CELL_CHARGE)
 	select_name = "kill"
 
 /obj/item/ammo_casing/energy/laser/hellfire
 	projectile_type = /obj/projectile/beam/laser/hellfire
-	e_cost = LASER_SHOTS(10, STANDARD_CELL_CHARGE)
+	e_cost = LASER_SHOTS(15, STANDARD_CELL_CHARGE)
 	select_name = "maim"
 
 /obj/item/ammo_casing/energy/lasergun
 	projectile_type = /obj/projectile/beam/laser
-	e_cost = LASER_SHOTS(16, STANDARD_CELL_CHARGE)
+	e_cost = LASER_SHOTS(25, STANDARD_CELL_CHARGE)
 	select_name = "kill"
 
 /obj/item/ammo_casing/energy/lasergun/carbine
 	projectile_type = /obj/projectile/beam/laser/carbine
-	e_cost = LASER_SHOTS(40, STANDARD_CELL_CHARGE)
+	e_cost = LASER_SHOTS(80, STANDARD_CELL_CHARGE)
 	select_name = "kill"
 	fire_sound = 'sound/weapons/laser2.ogg'
 
@@ -26,11 +26,11 @@
 
 /obj/item/ammo_casing/energy/lasergun/old
 	projectile_type = /obj/projectile/beam/laser
-	e_cost = LASER_SHOTS(5, STANDARD_CELL_CHARGE)
+	e_cost = LASER_SHOTS(10, STANDARD_CELL_CHARGE)
 	select_name = "kill"
 
 /obj/item/ammo_casing/energy/laser/hos
-	e_cost = LASER_SHOTS(10, STANDARD_CELL_CHARGE * 1.2)
+	e_cost = LASER_SHOTS(20, STANDARD_CELL_CHARGE * 1.2)
 
 /obj/item/ammo_casing/energy/laser/musket
 	projectile_type = /obj/projectile/beam/laser/musket

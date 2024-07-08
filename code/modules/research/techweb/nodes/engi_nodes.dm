@@ -75,6 +75,7 @@
 		"triphasic_scanning",
 		"bluespace_battery",
 		"bluespace_cell",
+		"self_chargec_expanded",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_4_POINTS)
 	discount_experiments = list(/datum/experiment/scanning/points/machinery_tiered_scan/tier3_any = TECHWEB_TIER_4_POINTS)
@@ -121,6 +122,7 @@
 		"solar_panel",
 		"solar_tracker",
 		"power_control",
+		"RTG",
 		"airalarm_electronics",
 		"airlock_board",
 		"firealarm_electronics",
@@ -156,6 +158,7 @@
 		"apc_control",
 		"powermonitor",
 		"smes",
+		"Advanced RTG",
 		"emitter",
 		"grounding_rod",
 		"tesla_coil",
@@ -165,6 +168,7 @@
 		"inducerengi",
 		"welding_goggles",
 		"tray_goggles",
+		"self_chargec",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_1_POINTS)
 

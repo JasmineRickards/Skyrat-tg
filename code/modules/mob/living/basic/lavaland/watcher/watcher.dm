@@ -11,8 +11,8 @@
 	base_pixel_x = -12
 	speak_emote = list("chimes")
 	speed = 3
-	maxHealth = 160
-	health = 160
+	maxHealth = 120
+	health = 120
 	attack_verb_continuous = "buffets"
 	attack_verb_simple = "buffet"
 	crusher_loot = /obj/item/crusher_trophy/watcher_wing
@@ -23,7 +23,7 @@
 		/obj/item/stack/sheet/sinew = 2,
 	)
 	/// How often can we shoot?
-	var/ranged_cooldown = 3 SECONDS
+	var/ranged_cooldown = 4 SECONDS
 	/// What kind of beams we got?
 	var/projectile_type = /obj/projectile/temp/watcher
 	/// Icon state for our eye overlay

@@ -15,9 +15,9 @@
 	armor_type = /datum/armor/suit_armor
 
 /datum/armor/suit_armor
-	melee = 35
-	bullet = 30
-	laser = 30
+	melee = 45
+	bullet = 50
+	laser = 50
 	energy = 40
 	bomb = 25
 	fire = 50
@@ -73,10 +73,10 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /datum/armor/vest_marine
-	melee = 50
-	bullet = 50
-	laser = 30
-	energy = 25
+	melee = 60
+	bullet = 60
+	laser = 50
+	energy = 55
 	bomb = 50
 	bio = 100
 	fire = 40
@@ -84,9 +84,9 @@
 	wound = 20
 
 /datum/armor/pmc
-	melee = 40
-	bullet = 50
-	laser = 60
+	melee = 60
+	bullet = 60
+	laser = 65
 	energy = 50
 	bomb = 50
 	bio = 100
@@ -147,10 +147,10 @@
 	strip_delay = 80
 
 /datum/armor/armor_hos
-	melee = 30
-	bullet = 30
-	laser = 30
-	energy = 40
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 25
 	fire = 70
 	acid = 90
@@ -240,9 +240,9 @@
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
 
 /datum/armor/armor_secjacket //Gotta compensate those extra covered limbs
-	melee = 25
-	bullet = 25
-	laser = 25
+	melee = 35
+	bullet = 35
+	laser = 35
 	energy = 35
 	bomb = 20
 	fire = 30
@@ -270,9 +270,9 @@
 	resistance_flags = FIRE_PROOF
 
 /datum/armor/vest_capcarapace
-	melee = 50
-	bullet = 40
-	laser = 50
+	melee = 60
+	bullet = 60
+	laser = 60
 	energy = 50
 	bomb = 25
 	fire = 100
@@ -309,10 +309,10 @@
 	clothing_traits = list(TRAIT_BRAWLING_KNOCKDOWN_BLOCKED)
 
 /datum/armor/armor_riot
-	melee = 50
-	bullet = 10
-	laser = 10
-	energy = 10
+	melee = 60
+	bullet = 20
+	laser = 20
+	energy = 20
 	fire = 80
 	acid = 80
 	wound = 20
@@ -362,10 +362,10 @@
 	equip_delay_other = 50
 
 /datum/armor/armor_bulletproof
-	melee = 15
-	bullet = 60
-	laser = 10
-	energy = 10
+	melee = 25
+	bullet = 70
+	laser = 20
+	energy = 20
 	bomb = 40
 	fire = 50
 	acid = 50
@@ -385,10 +385,10 @@
 	var/hit_reflect_chance = 50
 
 /datum/armor/armor_laserproof
-	melee = 10
-	bullet = 10
-	laser = 60
-	energy = 60
+	melee = 20
+	bullet = 20
+	laser = 70
+	energy = 70
 	fire = 100
 	acid = 100
 
@@ -431,10 +431,10 @@
 //All of the armor below is mostly unused
 
 /datum/armor/armor_swat
-	melee = 40
-	bullet = 30
-	laser = 30
-	energy = 40
+	melee = 55
+	bullet = 55
+	laser = 55
+	energy = 55
 	bomb = 50
 	bio = 90
 	fire = 100

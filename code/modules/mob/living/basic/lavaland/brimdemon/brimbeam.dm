@@ -7,14 +7,14 @@
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
 	click_to_activate = TRUE
-	cooldown_time = 5 SECONDS
+	cooldown_time = 10 SECONDS
 	melee_cooldown_time = 0
 	/// How far does our beam go?
-	var/beam_range = 10
+	var/beam_range = 8
 	/// How long does our beam last?
 	var/beam_duration = 2 SECONDS
 	/// How long do we wind up before firing?
-	var/charge_duration = 1 SECONDS
+	var/charge_duration = 1.5 SECONDS
 	/// Overlay we show when we're about to fire
 	var/static/image/direction_overlay = image('icons/mob/simple/lavaland/lavaland_monsters.dmi', "brimdemon_telegraph_dir")
 	/// A list of all the beam parts.
