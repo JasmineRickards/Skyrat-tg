@@ -246,6 +246,14 @@
 /obj/structure/sign/warning,
 /turf/closed/wall,
 /area/station/maintenance/port/fore)
+"aeW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/structure/sign/departments/exodrone/directional/west,
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "afp" = (
 /obj/machinery/air_sensor/nitrogen_tank,
 /turf/open/floor/engine/n2,
@@ -1688,10 +1696,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
-"aAf" = (
-/obj/machinery/incident_display/delam,
-/turf/closed/wall/r_wall,
-/area/station/command/bridge)
 "aAi" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/table/wood/fancy/red,
@@ -41650,6 +41654,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/incident_display/bridge/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "mDw" = (
@@ -47272,6 +47277,9 @@
 /obj/machinery/pdapainter/medbay,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
+"ojd" = (
+/turf/open/openspace/xenobio,
+/area/station/science/xenobiology)
 "ojf" = (
 /obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
@@ -48149,6 +48157,7 @@
 "oxe" = (
 /obj/machinery/computer/cargo/request,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/machinery/incident_display/bridge/directional/north,
 /turf/open/floor/iron,
 /area/station/command/bridge)
 "oxh" = (
@@ -67819,13 +67828,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/security/prison/safe)
-"ulE" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
-	dir = 1;
-	piping_layer = 2
-	},
-/turf/open/floor/iron,
-/area/station/science/ordnance)
 "uma" = (
 /obj/item/chisel,
 /obj/item/storage/toolbox/artistic,
@@ -67931,13 +67933,6 @@
 /obj/machinery/gulag_teleporter,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/processing)
-"unM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "unO" = (
 /obj/item/paper_bin{
 	pixel_x = -3;
@@ -73686,6 +73681,12 @@
 /obj/structure/sign/poster/official/wtf_is_co2,
 /turf/closed/wall/r_wall,
 /area/station/maintenance/aft/greater)
+"wfy" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/science/ordnance)
 "wfF" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -166090,7 +166091,7 @@ gjq
 gjq
 iYt
 dbi
-unM
+aeW
 lNH
 bit
 iQK
@@ -195151,7 +195152,7 @@ qRO
 rRl
 ndb
 bnZ
-ulE
+wfy
 uIf
 thA
 thA
@@ -242655,7 +242656,7 @@ xwC
 utR
 pAZ
 bln
-aAf
+qWZ
 oxe
 vmj
 aqB
@@ -254508,12 +254509,12 @@ wHc
 aEA
 dng
 dAB
-ily
-ily
-ily
-ily
-ily
-ily
+ojd
+ojd
+ojd
+ojd
+ojd
+ojd
 qLY
 pnA
 qFp
@@ -254765,12 +254766,12 @@ wHc
 fPO
 pTU
 itt
-ily
-ily
-ily
-ily
-ily
-ily
+ojd
+ojd
+ojd
+ojd
+ojd
+ojd
 qLY
 baF
 fvk
@@ -255022,12 +255023,12 @@ wHc
 oMT
 emK
 uvU
-ily
-ily
-ily
-ily
-ily
-ily
+ojd
+ojd
+ojd
+ojd
+ojd
+ojd
 qLY
 oCA
 fvk
