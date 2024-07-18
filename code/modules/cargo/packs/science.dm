@@ -190,3 +190,15 @@
 	contains = list(/obj/item/mod/core/standard = 3)
 	crate_name = "\improper MOD core crate"
 	crate_type = /obj/structure/closet/crate/secure/science/robo
+
+/datum/supply_pack/science/stock_parts
+	name = "T3 Stock Parts Crate"
+	desc = "Science unable to bring you what you need? Here's a shipment of Tier three parts to help get the ball rolling!"
+	cost = CARGO_CRATE_VALUE * 12
+	contains = list(/obj/item/stock_parts/capacitor/super = 14,
+					/obj/item/stock_parts/scanning_module/phasic = 14,
+					/obj/item/stock_parts/servo/pico = 14,
+					/obj/item/stock_parts/micro_laser/ultra = 14,
+					/obj/item/stock_parts/matter_bin/super = 14)
+	crate_name = "\improper Stock parts crate"
+	crate_type = /obj/structure/closet/crate/secure/science/robo
