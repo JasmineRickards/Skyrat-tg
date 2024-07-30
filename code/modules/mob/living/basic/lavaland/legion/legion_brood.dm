@@ -19,8 +19,8 @@
 	friendly_verb_simple = "chatter near"
 	maxHealth = 1
 	health = 1
-	melee_damage_lower = 12
-	melee_damage_upper = 12
+	melee_damage_lower = 6
+	melee_damage_upper = 6
 	obj_damage = 0
 	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"

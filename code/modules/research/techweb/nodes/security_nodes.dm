@@ -101,6 +101,7 @@
 	description = "So advanced, even engineers are baffled by its operational principles."
 	prereq_ids = list(TECHWEB_NODE_ELECTRIC_WEAPONS)
 	design_ids = list(
+		"beamrifle",
 		"xray_laser",
 		"nuclear_gun",
 	)

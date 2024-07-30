@@ -45,6 +45,8 @@
 		"Off-Duty Staff",
 		"Musician",
 		"Waiter",
+		"Slave",
+		"Sleeve",
 	)
 
 /datum/job/atmospheric_technician
@@ -316,6 +318,8 @@
 		"Chief of Security",
 		"Security Commander",
 		"Sheriff",
+		"Head of Slutcurity",
+		"Chief of Slutcurity",
 	)
 
 /datum/job/janitor
@@ -341,6 +345,7 @@
 		"Legal Clerk",
 		"Prosecutor",
 		"Public Defender",
+		"Alternative Punishment Negotiater",
 	)
 
 /datum/job/mime
@@ -386,6 +391,7 @@
 		"Maximum Security Prisoner",
 		"SuperMax Security Prisoner",
 		"Protective Custody Prisoner",
+		"Sec-Slave",
 	)
 
 /datum/job/psychologist
@@ -461,6 +467,7 @@
 		"Security Cadet",
 		"Junior Officer",
 		"Security Assistant",
+		"Slutcurity Officer",
 	)
 
 /datum/job/shaft_miner
