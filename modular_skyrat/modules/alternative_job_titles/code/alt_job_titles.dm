@@ -223,7 +223,7 @@
 		"Culinary Artist",
 		"Sous-Chef",
 		"Junior Chef",
-		"Tavern Chef",,
+		"Tavern Chef",
 		"Confectionist",
 		"Pastry Chef",
 	)
