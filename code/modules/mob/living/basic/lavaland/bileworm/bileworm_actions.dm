@@ -71,9 +71,9 @@
 	name = "acidic bile"
 	icon_state = "neurotoxin"
 	hitsound = 'sound/weapons/sear.ogg'
-	damage = 20
+	damage = 10
 	speed = 2
-	range = 20
+	range = 8
 	jitter = 3 SECONDS
 	stutter = 3 SECONDS
 	damage_type = BURN

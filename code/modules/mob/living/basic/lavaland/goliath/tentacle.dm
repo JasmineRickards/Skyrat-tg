@@ -9,11 +9,11 @@
 	/// Timer for our current action stage
 	var/action_timer
 	/// Time in which to grab people
-	var/grapple_time = 10 SECONDS
+	var/grapple_time = 2 SECONDS
 	/// Lower bound of damage to inflict
-	var/min_damage = 10
+	var/min_damage = 5
 	/// Upper bound of damage to inflict
-	var/max_damage =  15
+	var/max_damage =  10
 
 /obj/effect/goliath_tentacle/Initialize(mapload)
 	. = ..()

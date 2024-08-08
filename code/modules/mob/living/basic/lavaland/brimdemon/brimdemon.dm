@@ -7,8 +7,8 @@
 	icon_living = "brimdemon"
 	icon_dead = "brimdemon_dead"
 	speed = 3
-	maxHealth = 250
-	health = 250
+	maxHealth = 150
+	health = 150
 	friendly_verb_continuous = "scratches at"
 	friendly_verb_simple = "scratch at"
 	speak_emote = list("cackles")

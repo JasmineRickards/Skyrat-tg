@@ -88,6 +88,26 @@
 	crate_name = "\improper PACMAN generator crate"
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
+/datum/supply_pack/engineering/rtg
+	name = "R.T.G Generator Crate"
+	desc = "Engineers can't set up the engine? Not an issue for you, once you get your hands \
+		on this RTG Generator! Takes in plasma and spits out sweet sweet energy."
+	cost = CARGO_CRATE_VALUE * 5
+	access_view = ACCESS_ENGINEERING
+	contains = list(/obj/item/circuitboard/machine/rtg = 3)
+	crate_name = "\improper RTG generator circuit crate"
+	crate_type = /obj/structure/closet/crate/engineering/electrical
+
+/datum/supply_pack/engineering/artg
+	name = "Advanced R.T.G Generator Crate"
+	desc = "Engineers can't set up the engine? Not an issue for you, once you get your hands \
+		on this ARTG Generator! Takes in plasma and spits out sweet sweet energy."
+	cost = CARGO_CRATE_VALUE * 8
+	access_view = ACCESS_ENGINEERING
+	contains = list(/obj/item/circuitboard/machine/rtg/advanced = 3)
+	crate_name = "\improper Advanced RTG generator circuit crate"
+	crate_type = /obj/structure/closet/crate/engineering/electrical
+
 /datum/supply_pack/engineering/power
 	name = "Power Cell Crate"
 	desc = "Looking for power overwhelming? Look no further. Contains three high-voltage power cells."

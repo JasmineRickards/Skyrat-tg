@@ -2,7 +2,7 @@
 GLOBAL_VAR_INIT(looc_allowed, TRUE)
 
 /datum/config_entry/number/rockplanet_budget
-	config_entry_value = 60
+	config_entry_value = 120
 	integer = FALSE
 	min_val = 0
 
@@ -42,13 +42,13 @@ GLOBAL_VAR_INIT(looc_allowed, TRUE)
 /datum/config_entry/flag/allow_consecutive_catastropic_events
 /// Upper value for random events at highpop.
 /datum/config_entry/number/event_frequency_upper
-	default = 14 MINUTES
+	default = 200 MINUTES
 /// Lower value for random events at highpop.
 /datum/config_entry/number/event_frequency_lower
-	default = 7 MINUTES
+	default = 200 MINUTES
 /// Rate at which high intensity random events are limited to occur.
 /datum/config_entry/number/intensity_credit_rate
-	default = 45 MINUTES
+	default = 200 MINUTES
 
 /datum/config_entry/flag/admin_event_uses_chaos
 

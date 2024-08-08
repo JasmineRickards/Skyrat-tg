@@ -1,7 +1,7 @@
 /obj/projectile/bullet
 	name = "bullet"
 	icon_state = "bullet"
-	damage = 60
+	damage = 70
 	damage_type = BRUTE
 	armor_flag = BULLET
 	hitsound_wall = SFX_RICOCHET
