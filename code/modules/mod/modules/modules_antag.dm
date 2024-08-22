@@ -31,10 +31,10 @@
 	speed_added = 0
 
 /datum/armor/mod_module_armor_boost
-	melee = 25
-	bullet = 30
-	laser = 15
-	energy = 15
+	melee = 5
+	bullet = 5
+	laser = 5
+	energy = 5
 
 /obj/item/mod/module/armor_booster/on_suit_activation()
 	var/obj/item/clothing/head_cover = mod.get_part_from_slot(ITEM_SLOT_HEAD) || mod.get_part_from_slot(ITEM_SLOT_MASK) || mod.get_part_from_slot(ITEM_SLOT_EYES)
