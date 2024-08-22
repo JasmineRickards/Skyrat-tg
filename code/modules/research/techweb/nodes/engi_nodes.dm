@@ -128,6 +128,7 @@
 		"firelock_board",
 		"trapdoor_electronics",
 		"blast",
+		"big_manipulator",
 		"tile_sprayer",
 		"airlock_painter",
 		"decal_painter",
