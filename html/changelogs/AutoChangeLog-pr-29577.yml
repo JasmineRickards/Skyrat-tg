@@ -1,4 +1,4 @@
 author: "SkyratBot"
 delete-after: True
 changes:
-  - balance: "reticence requires progression"
+  - rscadd: "Added salt electrolysis reaction"
