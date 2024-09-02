@@ -10,6 +10,14 @@
 	make_reagent = /datum/reagent/consumable/milk
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/kmilk
+	name = "Korta Milk"
+	id = "Kmilk"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 0.4)
+	make_reagent = /datum/reagent/consumable/korta_milk
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/soymilk
 	name = "Synthetic Soy Milk"
 	id = "soymilk"
@@ -34,12 +42,69 @@
 	make_reagent = /datum/reagent/consumable/cream
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/knectar
+	name = "Korta Nectar"
+	id = "knectar"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 0.6)
+	make_reagent = /datum/reagent/consumable/korta_nectar
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/black_pepper
 	name = "Synthetic Black Pepper"
 	id = "black_pepper"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
 	make_reagent = /datum/reagent/consumable/blackpepper
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/Salt
+	name = "Salt"
+	id = "salt"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 1)
+	make_reagent = /datum/reagent/consumable/salt
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/powderedcoco
+	name = "Powdered Coco"
+	id = "pcoco"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 1)
+	make_reagent = /datum/reagent/consumable/powdered_coco
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+
+/datum/design/bbq_sauce
+	name = "Barbecue sauce"
+	id = "bbq_sauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagent = /datum/reagent/consumable/bbqsauce
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/mayonnaise
+	name = "Mayonnaise"
+	id = "mayosauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagent = /obj/item/reagent_containers/condiment/mayonnaise
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/ketchup
+	name = "Ketchup"
+	id = "ketchup"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagent = /datum/reagent/consumable/ketchup
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/soysauce
+	name = "Soy Sauce"
+	id = "soysauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 0.4)
+	make_reagent = /datum/reagent/consumable/soysauce
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/enzyme
@@ -58,6 +123,14 @@
 	make_reagent = /datum/reagent/consumable/flour
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/kflour
+	name = "Korta Flour"
+	id = "kflour_sack"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 1)
+	make_reagent = /datum/reagent/consumable/korta_flour
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/sugar
 	name = "Synthetic Sugar"
 	id = "sugar"
@@ -72,6 +145,22 @@
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 50)
 	build_path = /obj/item/food/monkeycube
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/egg
+	name = "Egg"
+	id = "egg"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 15)
+	build_path = /obj/item/food/egg
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/imitation_carp
+	name = "Imitation carp"
+	id = "imi_carp"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 50)
+	build_path = /obj/item/food/fishmeat/carp/imitation
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/seaweed_sheet

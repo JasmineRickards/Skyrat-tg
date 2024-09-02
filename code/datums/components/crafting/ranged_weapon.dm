@@ -70,7 +70,7 @@
 /datum/crafting_recipe/tempgun/New()
 	..()
 	blacklist += subtypesof(/obj/item/gun/energy/e_gun)
-
+/*
 /datum/crafting_recipe/beam_rifle
 	name = "Event Horizon Anti-Existential Beam Rifle"
 	result = /obj/item/gun/energy/event_horizon
@@ -83,7 +83,7 @@
 	)
 	time = 30 SECONDS //Maybe the delay will make you reconsider your choices
 	category = CAT_WEAPON_RANGED
-
+*/ //Adding this was a mistake.
 /datum/crafting_recipe/ebow
 	name = "Energy Crossbow"
 	result = /obj/item/gun/energy/recharge/ebow/large

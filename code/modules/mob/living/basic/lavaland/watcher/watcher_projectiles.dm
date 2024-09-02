@@ -5,7 +5,7 @@
 	damage = 10
 	damage_type = BURN
 	armor_flag = ENERGY
-	temperature = -50
+	temperature = -30
 
 /obj/projectile/temp/watcher/Initialize(mapload)
 	. = ..()
@@ -26,7 +26,7 @@
 	name = "scorching blast"
 	icon_state = "lava"
 	damage = 5
-	temperature = 200
+	temperature = 50
 
 /obj/projectile/temp/watcher/magma_wing/apply_status(mob/living/target)
 	target.adjust_fire_stacks(0.1)

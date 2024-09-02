@@ -15,9 +15,9 @@
 	speed = 3
 	maxHealth = 75
 	health = 75
-	obj_damage = 60
-	melee_damage_lower = 15
-	melee_damage_upper = 15
+	obj_damage = 30
+	melee_damage_lower = 5
+	melee_damage_upper = 5
 	attack_verb_continuous = "lashes out at"
 	attack_verb_simple = "lash out at"
 	speak_emote = list("gurgles")

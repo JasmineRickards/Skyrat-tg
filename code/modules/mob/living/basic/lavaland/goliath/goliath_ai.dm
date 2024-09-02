@@ -1,5 +1,5 @@
 /// We won't use tentacles unless we have had the same target for this long
-#define MIN_TIME_TO_TENTACLE 3 SECONDS
+#define MIN_TIME_TO_TENTACLE 4 SECONDS
 
 /datum/ai_controller/basic_controller/goliath
 	blackboard = list(

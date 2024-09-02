@@ -4,10 +4,10 @@
 	armor_type = /datum/armor/mod_theme_engineering
 
 /datum/armor/mod_theme_engineering
-	melee = 10
-	bullet = 5
-	laser = 10
-	energy = 10
+	melee = 20
+	bullet = 25
+	laser = 20
+	energy = 20
 	bomb = 30
 	bio = 100
 	fire = 100
@@ -18,8 +18,8 @@
 	armor_type = /datum/armor/mod_theme_atmospheric
 
 /datum/armor/mod_theme_atmospheric
-	melee = 10
-	bullet = 5
+	melee = 20
+	bullet = 25
 	laser = 10
 	energy = 10
 	bomb = 40
@@ -33,7 +33,7 @@
 
 /datum/armor/mod_theme_advanced
 	melee = 30
-	bullet = 5
+	bullet = 25
 	laser = 10
 	energy = 10
 	bomb = 50
@@ -47,7 +47,7 @@
 
 /datum/armor/mod_theme_loader
 	melee = 20
-	bullet = 5
+	bullet = 25
 	laser = 10
 	energy = 10
 	bomb = 50
@@ -60,9 +60,9 @@
 	armor_type = /datum/armor/mod_theme_mining
 
 /datum/armor/mod_theme_mining
-	melee = 5
-	bullet = 5
-	laser = 5
+	melee = 25
+	bullet = 25
+	laser = 25
 	energy = 5
 	bomb = 25
 	bio = 100
@@ -75,8 +75,8 @@
 
 /datum/armor/mod_theme_medical
 	melee = 10
-	bullet = 5
-	laser = 5
+	bullet = 25
+	laser = 25
 	energy = 10
 	bomb = 10
 	bio = 100
@@ -89,7 +89,7 @@
 
 /datum/armor/mod_theme_rescue
 	melee = 20
-	bullet = 5
+	bullet = 25
 	laser = 10
 	energy = 10
 	bomb = 20
@@ -102,8 +102,8 @@
 	armor_type = /datum/armor/mod_theme_research
 
 /datum/armor/mod_theme_research
-	melee = 10
-	bullet = 5
+	melee = 20
+	bullet = 25
 	laser = 20
 	energy = 20
 	bomb = 100
@@ -154,11 +154,11 @@
 	)
 
 /datum/armor/mod_theme_security
-	melee = 30
-	bullet = 20
-	laser = 20
-	energy = 30
-	bomb = 20
+	melee = 50
+	bullet = 50
+	laser = 50
+	energy = 50
+	bomb = 30
 	bio = 100
 	fire = 75
 	acid = 75
@@ -204,11 +204,11 @@
 	)
 
 /datum/armor/mod_theme_safeguard
-	melee = 40
-	bullet = 30
-	laser = 30
-	energy = 40
-	bomb = 30
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
+	bomb = 60
 	bio = 100
 	fire = 100
 	acid = 95
@@ -218,10 +218,10 @@
 	armor_type = /datum/armor/mod_theme_magnate
 
 /datum/armor/mod_theme_magnate
-	melee = 40
-	bullet = 40
-	laser = 40
-	energy = 40
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 50
 	bio = 100
 	fire = 100
@@ -244,11 +244,11 @@
 	armor_type = /datum/armor/mod_theme_syndicate
 
 /datum/armor/mod_theme_syndicate
-	melee = 20
-	bullet = 25
-	laser = 15
-	energy = 20
-	bomb = 40
+	melee = 50
+	bullet = 50
+	laser = 50
+	energy = 50
+	bomb = 50
 	bio = 100
 	fire = 50
 	acid = 90
@@ -259,19 +259,19 @@
 	armor_mod = /datum/armor/mod_module_armor_boost_override
 
 /datum/armor/mod_module_armor_boost_override
-	melee = 20
-	bullet = 25
-	laser = 15
-	energy = 20
+	melee = 10
+	bullet = 10
+	laser = 10
+	energy = 10
 
 /datum/mod_theme/elite // Elite Syndiate
 	armor_type = /datum/armor/mod_theme_elite
 
 /datum/armor/mod_theme_elite
-	melee = 30
-	bullet = 30
-	laser = 25
-	energy = 30
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 60
 	bio = 100
 	fire = 100
@@ -283,10 +283,10 @@
 	armor_mod = /datum/armor/mod_module_armor_boost_elite
 
 /datum/armor/mod_module_armor_boost_elite
-	melee = 30
-	bullet = 30
-	laser = 25
-	energy = 30
+	melee = 10
+	bullet = 10
+	laser = 10
+	energy = 10
 
 /datum/mod_theme/prototype // Charlie Station
 	armor_type = /datum/armor/mod_theme_prototype
@@ -306,10 +306,10 @@
 	armor_type = /datum/armor/mod_theme_responsory
 
 /datum/armor/mod_theme_responsory
-	melee = 40
-	bullet = 30
-	laser = 30
-	energy = 40
+	melee = 60
+	bullet = 60
+	laser = 60
+	energy = 60
 	bomb = 50
 	bio = 100
 	fire = 100
