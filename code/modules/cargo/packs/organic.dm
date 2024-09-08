@@ -165,13 +165,13 @@
 	///Whether we've provided an infinite pizza box already this shift or not.
 	var/anomalous_box_provided = FALSE
 	/// one percent chance for a pizza box to be the ininfite pizza box
-	var/infinite_pizza_chance = 1
+	var/infinite_pizza_chance = 0
 	///Whether we've provided a bomb pizza box already this shift or not.
 	var/boombox_provided = FALSE
 	/// three percent chance for a pizza box to be the pizza bomb box
-	var/bomb_pizza_chance = 3
+	var/bomb_pizza_chance = 0
 	/// 1 in 3 pizza bombs spawned will be a dud
-	var/bomb_dud_chance = 33
+	var/bomb_dud_chance = 0
 
 	/// list of pizza that can randomly go inside of a crate, weighted by how disruptive it would be
 	var/list/pizza_types = list(
