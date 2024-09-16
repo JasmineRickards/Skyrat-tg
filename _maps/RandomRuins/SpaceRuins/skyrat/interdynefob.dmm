@@ -3465,6 +3465,7 @@
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 1
 	},
+/obj/vehicle/sealed/mecha/gygax/dark,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "pf" = (
@@ -4898,6 +4899,12 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/item/uplink/loneop{
+	name = "Emergency uplink"
+	},
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "vM" = (
@@ -5017,6 +5024,7 @@
 	dir = 1
 	},
 /obj/machinery/light/cold/directional/south,
+/obj/vehicle/sealed/mecha/marauder/mauler,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "wp" = (
@@ -6575,6 +6583,13 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
 	},
+/obj/item/uplink/nuclear{
+	name = "Armory Uplink"
+	},
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/armory)
 "EJ" = (
@@ -10323,6 +10338,12 @@
 /obj/item/crowbar{
 	pixel_y = -13
 	},
+/obj/item/uplink{
+	name = "Supplies Uplink"
+	},
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
+/obj/item/stack/telecrystal/twenty,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "Vz" = (
